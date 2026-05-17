@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main'
+                git branch: 'master'
                 Url: 'https://github.com/vskalpana3-ctrl/eks-cluster-deployment.git'
             }
         }
